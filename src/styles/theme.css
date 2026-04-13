@@ -1,0 +1,20 @@
+:root {
+  /* Colors */
+  --primary: #2563eb;
+  --primary-dark: #1d4ed8;
+
+  --background: #f8fafc;
+  --card-bg: #ffffff;
+  --sidebar-bg: #f1f5f9;
+
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+
+  /* Spacing */
+  --padding: 16px;
+  --radius: 10px;
+
+  /* Shadow */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 10px rgba(0,0,0,0.08);
+}

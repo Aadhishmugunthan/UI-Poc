@@ -1,11 +1,27 @@
+import {
+  FaHome,
+  FaTasks,
+  FaCog
+} from "react-icons/fa"
+
 import "./Sidebar.css"
 
 function Sidebar() {
   return (
     <div className="sidebar">
-      <p>Dashboard</p>
-      <p>Tasks</p>
-      <p>Settings</p>
+
+      <p>
+        <FaHome /> Dashboard
+      </p>
+
+      <p>
+        <FaTasks /> Tasks
+      </p>
+
+      <p>
+        <FaCog /> Settings
+      </p>
+
     </div>
   )
 }
