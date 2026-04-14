@@ -1,15 +1,32 @@
 import "./Navbar.css"
 
-function Navbar() {
+function Navbar({ onAddClick }) {
+
   return (
     <div className="navbar">
-      <h2>Task Manager</h2>
 
-      <button>
-        Add Task
-      </button>
+      <div className="navbar-left">
+
+        <h1>
+          Task Manager
+        </h1>
+
+      </div>
+
+      <div className="navbar-right">
+
+        <button
+          className="add-btn"
+          onClick={onAddClick}
+        >
+          + Add Task
+        </button>
+
+      </div>
+
     </div>
   )
+
 }
 
 export default Navbar

@@ -1,9 +1,23 @@
 .layout {
   display: flex;
+  min-height: calc(100vh - 64px);
 }
 
+.main-content {
+    flex: 1;
+
+  padding: 32px;
+
+  background: #f8fafc;
+
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+
+/* Better grid */
+
 .grid {
-  flex: 1;
 
   display: grid;
 
@@ -11,19 +25,45 @@
 
   gap: 24px;
 
-  padding: 28px;
+  margin-top: 20px;
 
-  background: #f8fafc;
 }
+
+/* Tablet */
 
 @media (min-width: 768px) {
+
   .grid {
-    grid-template-columns: repeat(2, 1fr);
+
+    grid-template-columns:
+      repeat(2, 1fr);
+
   }
+
 }
 
+/* Desktop */
+
 @media (min-width: 1024px) {
+
   .grid {
-    grid-template-columns: repeat(3, 1fr);
+
+    grid-template-columns:
+      repeat(2, 1fr);
+
   }
+
+}
+
+/* Large screen */
+
+@media (min-width: 1280px) {
+
+  .grid {
+
+    grid-template-columns:
+      repeat(3, 1fr);
+
+  }
+
 }
