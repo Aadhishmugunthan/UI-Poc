@@ -7,10 +7,9 @@ function Navbar({ onAddClick }) {
 
       <div className="navbar-left">
 
-        <h1>
-          Task Manager
-        </h1>
-
+        <h1 className="header-title">
+  Task Manager
+</h1>
       </div>
 
       <div className="navbar-right">

@@ -66,4 +66,31 @@
 
   }
 
+
+
+}
+/* ===== TYPOGRAPHY IMPROVEMENTS ===== */
+
+.header-title {
+  font-size: 32px;
+
+  font-weight: 700;
+
+  font-style: italic;
+
+  letter-spacing: 1px;
+
+  color: #1f2937;
+}
+
+.page-title {
+  font-size: 24px;
+
+  font-weight: 600;
+
+  font-style: italic;
+
+  margin-bottom: 20px;
+
+  color: #374151;
 }
